@@ -412,7 +412,7 @@
       <action name="Execute">
         <command>conky-toggle</command>
       </action>
-    </keybind>    
+    </keybind>
     <keybind key="C-A-Return">
       <action name="Execute">
         <command>exo-open --launch TerminalEmulator</command>
@@ -579,7 +579,7 @@
     </keybind>
     <keybind key="W-q">
       <action name="Close"/>
-    </keybind>    
+    </keybind>
     <keybind key="W-Return">
       <action name="Execute">
         <command>termite</command>
@@ -747,34 +747,34 @@
     </keybind>
     <keybind key="C-A-KP_8">
       <action name="Execute">
-        <command>am-rotate-conky -n</command>
+        <command>conky-rotate -n</command>
       </action>
     </keybind>
     <keybind key="C-A-KP_2">
       <action name="Execute">
-        <command>am-rotate-conky -p</command>
+        <command>conky-rotate -p</command>
       </action>
     </keybind>
     <keybind key="C-A-KP_Next">
       <action name="Execute">
-        <command>am-rotate-conky -n</command>
+        <command>conky-rotate -n</command>
       </action>
     </keybind>
     <keybind key="C-A-KP_Prior">
       <action name="Execute">
-        <command>am-rotate-conky -p</command>
+        <command>conky-rotate -p</command>
       </action>
     </keybind>
      <keybind key="C-A-Next">
       <action name="Execute">
-        <command>am-rotate-conky -n</command>
+        <command>conky-rotate -n</command>
       </action>
     </keybind>
     <keybind key="C-A-Prior">
       <action name="Execute">
-        <command>am-rotate-conky -p</command>
+        <command>conky-rotate -p</command>
       </action>
-    </keybind>   
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>
