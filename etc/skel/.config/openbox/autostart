@@ -13,7 +13,7 @@ compton -b --config ~/.config/compton.conf &
 tint2 &
 #sh ~/.config/polybar/launch.sh &
 
-(am-conky-session --autostart) &
+#(am-conky-session --autostart) &
 
 #bluetooth#
 #(blueberry-tray) &
