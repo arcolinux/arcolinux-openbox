@@ -11,7 +11,7 @@ compton -b --config ~/.config/compton.conf &
 #nitrogen --restore
 
 tint2 &
-#sh ~/.config/polybar/launch.sh &
+$HOME/.config/polybar/launch.sh &
 
 #(am-conky-session --autostart) &
 
@@ -46,8 +46,6 @@ xfsettingsd &
 (nm-applet) &
 
 (plank) &
-
-#redshift-gtk &
 
 #discord &
 
