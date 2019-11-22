@@ -5,7 +5,7 @@
 #
 # You can set compton to use either xrender or glx
 # Change if issues
-compton -b --config ~/.config/compton.conf &
+picom -b --config ~/.config/picom.conf &
 
 # Set background image
 #nitrogen --restore
