@@ -11,7 +11,7 @@ picom -b --config ~/.config/picom.conf &
 #nitrogen --restore
 
 tint2 &
-$HOME/.config/polybar/launch.sh &
+#$HOME/.config/polybar/launch.sh &
 
 #(am-conky-session --autostart) &
 
