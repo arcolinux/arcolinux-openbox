@@ -8,7 +8,7 @@
 picom -b --config ~/.config/picom.conf &
 
 # Set background image
-#nitrogen --restore
+nitrogen --restore
 
 tint2 &
 #$HOME/.config/polybar/launch.sh &
