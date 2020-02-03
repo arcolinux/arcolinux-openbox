@@ -707,7 +707,12 @@
     </keybind>
     <keybind key="C-A-W">
       <action name="Execute">
-        <command>subl3</command>
+        <command>arcolinux-welcome-app</command>
+      </action>
+    </keybind>
+    <keybind key="C-A-E">
+      <action name="Execute">
+        <command>arcolinux-tweak-tool</command>
       </action>
     </keybind>
     <keybind key="C-A-S">
@@ -765,7 +770,7 @@
         <command>conky-rotate -p</command>
       </action>
     </keybind>
-     <keybind key="C-A-Next">
+    <keybind key="C-A-Next">
       <action name="Execute">
         <command>conky-rotate -n</command>
       </action>
