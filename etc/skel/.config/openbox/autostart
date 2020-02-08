@@ -8,7 +8,7 @@
 picom -b --config ~/.config/picom.conf &
 
 # start ArcoLinux Welcome  App
-dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
+#dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 
 # Set background image
 nitrogen --restore
