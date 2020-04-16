@@ -725,7 +725,12 @@
         <command>nitrogen</command>
       </action>
     </keybind>
-    <keybind key="C-A-O">
+    <keybind key="C-A-o">
+      <action name="Execute">
+        <command>sh ~/.config/openbox/scripts/picom-toggle.sh</command>
+      </action>
+    </keybind>
+    <keybind key="C-A-y">
       <action name="Execute">
         <command>obconf</command>
       </action>
