@@ -3,7 +3,7 @@
 # You may place a similar script in $HOME/.config/openbox/autostart
 # to run user-specific things.
 #
-# You can set compton to use either xrender or glx
+# You can set picom to use either xrender or glx
 # Change if issues
 picom -b --config ~/.config/picom.conf &
 
