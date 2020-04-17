@@ -671,7 +671,7 @@
       </action>
       <action name="MaximizeFull"/>
     </keybind>
-    <keybind key="W-k">
+    <keybind key="W-l">
       <action name="Execute">
         <command>obkey</command>
       </action>
