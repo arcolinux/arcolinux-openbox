@@ -645,11 +645,6 @@
         <command>rofi -show run -font "Noto Sans 13"</command>
       </action>
     </keybind>
-    <keybind key="F12">
-      <action name="Execute">
-        <command>xfce4-terminal --drop-down</command>
-      </action>
-    </keybind>
     <keybind key="C-S-Escape">
       <action name="Execute">
         <command>xfce4-taskmanager</command>
