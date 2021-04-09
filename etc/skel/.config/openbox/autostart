@@ -47,11 +47,11 @@ xfce4-power-manager &
 (xfce4-clipman) &
 
 ## XFCE4 Settings
-xfsettingsd &
+#xfsettingsd &
 
 (nm-applet) &
 
-(plank) &
+#(plank) &
 
 #discord &
 
