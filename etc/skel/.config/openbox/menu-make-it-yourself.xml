@@ -36,7 +36,7 @@
       </item>
       <item label="Task Manager (htop)">
         <action name="Execute">
-          <command>termite -e 'htop task manager' -e htop</command>
+          <command>urxvt -e 'htop task manager' -e htop</command>
         </action>
       </item>
       <item label="Terminator">
@@ -44,9 +44,9 @@
           <command>terminator</command>
         </action>
       </item>
-      <item label="Termite">
+      <item label="Urxvt">
         <action name="Execute">
-          <command>termite</command>
+          <command>urxvt</command>
         </action>
       </item>
       <item label="Urxvt Terminal">
@@ -263,11 +263,6 @@
       <item label="Slim Appearance">
         <action name="Execute">
           <command>gksudo geany /etc/slim.conf</command>
-        </action>
-      </item>
-     <item label="Termite Appearance">
-        <action name="Execute">
-          <command>geany ~/.config/termite/config</command>
         </action>
       </item>
       <item label="Xfce4 Appearance">

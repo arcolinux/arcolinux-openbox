@@ -5,6 +5,8 @@
 #
 # You can set picom to use either xrender or glx
 # Change if issues
+#autorandr horizontal
+
 picom -b --config ~/.config/picom.conf &
 
 # start ArcoLinux Welcome  App
