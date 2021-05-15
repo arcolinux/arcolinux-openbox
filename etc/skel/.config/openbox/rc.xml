@@ -638,12 +638,12 @@
     </keybind>
     <keybind key="W-F11">
       <action name="Execute">
-        <command>rofi -show run -fullscreen -font "Noto Sans 13"</command>
+        <command>rofi -show drun -fullscreen -font "Noto Sans 13"</command>
       </action>
     </keybind>
     <keybind key="W-F12">
       <action name="Execute">
-        <command>rofi -show run -font "Noto Sans 13"</command>
+        <command>rofi -show drun -font "Noto Sans 13"</command>
       </action>
     </keybind>
     <keybind key="F12">
