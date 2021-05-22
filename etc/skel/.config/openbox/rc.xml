@@ -593,7 +593,7 @@
     </keybind>
     <keybind key="W-F2">
       <action name="Execute">
-        <command>subl3</command>
+        <command>subl</command>
       </action>
     </keybind>
     <keybind key="W-F3">
