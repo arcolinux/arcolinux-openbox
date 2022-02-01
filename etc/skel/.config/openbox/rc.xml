@@ -578,7 +578,7 @@
     </keybind>
     <keybind key="W-Return">
       <action name="Execute">
-        <command>urxvt</command>
+        <command>alacritty</command>
       </action>
     </keybind>
     <keybind key="S-W-Return">
@@ -690,7 +690,7 @@
     </keybind>
     <keybind key="C-A-T">
       <action name="Execute">
-        <command>urxvt</command>
+        <command>alacritty</command>
       </action>
     </keybind>
     <keybind key="C-A-d">
