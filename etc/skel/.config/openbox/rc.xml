@@ -362,6 +362,11 @@
         <command>xfce4-screenshooter</command>
       </action>
     </keybind>
+    <keybind key="W-C-Print">
+      <action name="Execute">
+        <command>flameshot gui</command>
+      </action>
+    </keybind>    
     <keybind key="A-F2">
       <action name="Execute">
         <command>xfce4-appfinder --collapsed</command>
