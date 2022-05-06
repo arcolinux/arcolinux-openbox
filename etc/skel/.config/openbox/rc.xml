@@ -431,12 +431,12 @@
     </keybind>
     <keybind key="C-A-k">
       <action name="Execute">
-        <command>arcolinux-logout</command>
+        <command>archlinux-logout</command>
       </action>
     </keybind>
     <keybind key="C-A-l">
       <action name="Execute">
-        <command>arcolinux-logout</command>
+        <command>archlinux-logout</command>
       </action>
     </keybind>
     <keybind key="W-e">
@@ -466,7 +466,7 @@
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-        <command>arcolinux-logout</command>
+        <command>archlinux-logout</command>
       </action>
     </keybind>
     <keybind key="W-Escape">
@@ -1189,7 +1189,7 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-    <application name="arcolinux-logout">
+    <application name="archlinux-logout">
       <position force="no">
         <monitor>1</monitor>
       </position>
