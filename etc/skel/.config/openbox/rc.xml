@@ -718,7 +718,7 @@
     </keybind>
     <keybind key="C-A-E">
       <action name="Execute">
-        <command>arcolinux-tweak-tool</command>
+        <command>archlinux-tweak-tool</command>
       </action>
     </keybind>
     <keybind key="C-A-S">
