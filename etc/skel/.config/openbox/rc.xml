@@ -682,12 +682,6 @@
       </action>
       <action name="MaximizeFull"/>
     </keybind>
-    <keybind key="W-k">
-      <action name="Execute">
-        <command>obkey</command>
-      </action>
-      <action name="MaximizeFull"/>
-    </keybind>
     <keybind key="C-A-a">
       <action name="Execute">
         <command>xfce4-appfinder</command>
