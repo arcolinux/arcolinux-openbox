@@ -806,8 +806,26 @@
       <mousebind action="Click" button="A-Left">
         <action name="Unshade"/>
       </mousebind>
+      <!--
       <mousebind action="Drag" button="A-Left">
         <action name="Move"/>
+      </mousebind>
+      //-->
+      <mousebind action="Drag" button="A-Left">
+        <action name="if">
+          <maximized>yes</maximized>
+          <then>
+            <action name="UnmaximizeFull"/>
+            <action name="MoveResizeTo">
+              <x>center</x>
+              <y>current</y>
+            </action>
+            <action name="Move"/>
+          </then>
+          <else>
+            <action name="Move"/>
+          </else>
+        </action>
       </mousebind>
       <mousebind action="Press" button="A-Right">
         <action name="Focus"/>
@@ -858,8 +876,26 @@
         <action name="Focus"/>
         <action name="Raise"/>
       </mousebind>
+      <!--
       <mousebind action="Drag" button="Left">
         <action name="Move"/>
+      </mousebind>
+      //-->
+      <mousebind action="Drag" button="Left">
+        <action name="if">
+          <maximized>yes</maximized>
+          <then>
+            <action name="UnmaximizeFull"/>
+            <action name="MoveResizeTo">
+              <x>center</x>
+              <y>current</y>
+            </action>
+            <action name="Move"/>
+          </then>
+          <else>
+            <action name="Move"/>
+          </else>
+        </action>
       </mousebind>
       <mousebind action="DoubleClick" button="Left">
         <action name="ToggleMaximizeFull"/>
@@ -874,9 +910,11 @@
           <shaded>no</shaded>
           <then>
             <action name="Shade"/>
+            <!--
             <action name="FocusToBottom"/>
             <action name="Unfocus"/>
             <action name="Lower"/>
+            //-->
           </then>
         </action>
       </mousebind>
@@ -901,7 +939,9 @@
       <mousebind action="Press" button="Left">
         <action name="Focus"/>
         <action name="Raise"/>
+        <!--
         <action name="Unshade"/>
+        //-->
       </mousebind>
       <mousebind action="Press" button="Middle">
         <action name="Lower"/>
