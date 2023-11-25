@@ -366,7 +366,7 @@
       <action name="Execute">
         <command>flameshot gui</command>
       </action>
-    </keybind>    
+    </keybind>
     <keybind key="A-F2">
       <action name="Execute">
         <command>xfce4-appfinder --collapsed</command>
@@ -399,7 +399,9 @@
       <action name="ToggleDecorations"/>
     </keybind>
     <keybind key="W-d">
-      <action name="ToggleShowDesktop"/>
+      <action name="Execute">
+        <command>sh ~/.config/openbox/launcher/launcher.sh</command>
+      </action>
     </keybind>
     <keybind key="W-b">
       <action name="ToggleDecorations"/>
