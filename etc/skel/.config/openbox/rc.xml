@@ -448,7 +448,7 @@
     </keybind>
     <keybind key="W-m">
       <action name="Execute">
-        <command>pragha</command>
+        <command>lollypop</command>
       </action>
     </keybind>
     <keybind key="W-h">
@@ -635,7 +635,7 @@
     </keybind>
     <keybind key="W-F9">
       <action name="Execute">
-        <command>evolution</command>
+        <command>lollypop</command>
       </action>
     </keybind>
     <keybind key="W-F10">
