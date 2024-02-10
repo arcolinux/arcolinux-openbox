@@ -471,6 +471,11 @@
         <command>archlinux-logout</command>
       </action>
     </keybind>
+    <keybind key="W-S-x">
+      <action name="Execute">
+        <command>arcolinux-powermenu</command>
+      </action>
+    </keybind>
     <keybind key="W-Escape">
       <action name="Execute">
         <command>xkill</command>
